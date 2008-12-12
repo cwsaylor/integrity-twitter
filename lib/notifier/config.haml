@@ -1,0 +1,7 @@
+%p.normal
+  %label{ :for => "twitter_notifier_email" } Email Address
+  %input.text#twitter_notifier_email{ :name => "notifiers[twitter][email]", :value => config["email"], :type => "text" }
+ 
+%p.normal
+  %label{ :for => "twitter_notifier_pass" } Password
+  %input.text#twitter_notifier_pass{ :name => "notifiers[twitter][pass]", :value => config["pass"], :type => "text" }
