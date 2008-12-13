@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.date = %q{2008-12-12}
   s.description = %q{Easily let Integrity tweet after each build}
   s.email = %q{chris@justhack.com}
-  s.extra_rdoc_files = ["lib/notifier/config.haml", "lib/notifier/twitter.rb", "README.markdown"]
-  s.files = ["integrity-twitter.gemspec", "lib/notifier/config.haml", "lib/notifier/twitter.rb", "Manifest", "Rakefile", "README.markdown", "spec/spec_helper.rb", "spec/twitter_spec.rb"]
+  s.extra_rdoc_files = ["lib/notifier/config.haml", "lib/notifier/integrity_twitter.rb", "README.markdown"]
+  s.files = ["integrity-twitter.gemspec", "lib/notifier/config.haml", "lib/notifier/integrity_twitter.rb", "Manifest", "Rakefile", "README.markdown", "spec/spec_helper.rb", "spec/twitter_spec.rb"]
   s.homepage = %q{http://integrityapp.com}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Integrity-twitter", "--main", "README.markdown"]
   s.require_paths = ["lib"]
