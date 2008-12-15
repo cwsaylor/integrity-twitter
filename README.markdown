@@ -16,8 +16,8 @@ cwsaylor-integrity-twitter`
 
 Step 2. Add the following lines to your Rackup (ie, `config.ru`) file:
 
-  require "rubygems"
-  require "notifier/twitter"
+    require "rubygems"
+    require "notifier/twitter"
   
 Step 3. Profit! Just kidding. Edit the project and update your twitter email
 address and password.
