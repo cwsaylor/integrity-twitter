@@ -2,7 +2,7 @@ require 'rubygems'
 require 'rake'
 require 'echoe'
 
-Echoe.new('integrity-twitter', '1.0.0') do |e|
+Echoe.new('integrity-twitter', '1.0.1') do |e|
   e.summary         = "Twitter notifier for the Integrity continuous integration server"
   e.description     = "Easily let Integrity tweet after each build"
   e.url             = "http://integrityapp.com"

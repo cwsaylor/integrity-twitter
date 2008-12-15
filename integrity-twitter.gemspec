@@ -2,15 +2,15 @@
 
 Gem::Specification.new do |s|
   s.name = %q{integrity-twitter}
-  s.version = "1.0.0"
+  s.version = "1.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Chris Saylor"]
-  s.date = %q{2008-12-12}
+  s.date = %q{2008-12-15}
   s.description = %q{Easily let Integrity tweet after each build}
   s.email = %q{chris@justhack.com}
   s.extra_rdoc_files = ["lib/notifier/config.haml", "lib/notifier/integrity_twitter.rb", "README.markdown"]
-  s.files = ["integrity-twitter.gemspec", "lib/notifier/config.haml", "lib/notifier/integrity_twitter.rb", "Manifest", "Rakefile", "README.markdown", "spec/spec_helper.rb", "spec/twitter_spec.rb"]
+  s.files = ["integrity-twitter.gemspec", "lib/notifier/config.haml", "lib/notifier/integrity_twitter.rb", "Manifest", "Rakefile", "README.markdown", "spec/integrity_twitter_spec.rb", "spec/spec_helper.rb"]
   s.homepage = %q{http://integrityapp.com}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Integrity-twitter", "--main", "README.markdown"]
   s.require_paths = ["lib"]
