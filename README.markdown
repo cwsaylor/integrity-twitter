@@ -22,6 +22,11 @@ Step 2. Add the following lines to your Rackup (ie, `config.ru`) file:
 Step 3. Profit! Just kidding. Edit the project and update your twitter email
 address and password.
 
+Run the tests
+==================
+
+    rake spec
+
 License
 =======
 
